@@ -108,7 +108,7 @@ acl:
       "google.com": "8.8.8.8:443"
     # enable listening on DoH on a specific SNI. example: "myawesomedoh.example.com". empty disables it. If you need DoH to be enabled and don't want
     # any other overrides, enable this ACL with empty rules. DoH SNI will add a default rule and start.
-    doh_sni: "myawesomedoh.example.com"
+    doh_sni: "test.imzami.com"
     # Path to the certificate for handling tls decryption. eg: /tmp/mycert.pem
     tls_cert: /etc/letsencrypt/live/test.imzami.com/fullchain.pem
     # Path to the certificate key handling tls decryption. eg: /tmp/mycert.key
